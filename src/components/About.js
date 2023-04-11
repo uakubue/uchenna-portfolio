@@ -1,7 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import corporateimg from '../assets/corporateimg.jpg';
+import Popup from './popup/Popup';
+
 
 function About() {
+    const [buttonPopup, setButtonPopup ] = useState(false);
+
   return (
     <section id='about' className='bg-secondary text-white py-32 px-16'>
         <div  className=' container mx-auto grid md:grid-cols-2 items-center md:justify-between'>
@@ -18,9 +22,17 @@ function About() {
                     I understand React-context-Api and some hooks like useEffect, useHistory, useState, useReducer and some others.
                 </p>
 
-                <button className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r
-                 from-cyan-500 to-blue-500 cursor-pointer'><a href='uchennacv.pdf' download >Hire Me</a> </button>
+                <button onClick={() => setButtonPopup(true)} className='group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r
+                 from-cyan-500 to-blue-500 cursor-pointer'><a href='uchennacv.pdf' download >Hire Me</a> 
+                </button>
+                   
             </div>
+                    <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+                     <h3 className='font-bold text-1xl text-center'>Information:</h3>
+                     <p className='text-center'>You just downloaded Uchenna's CV!</p>
+                    </Popup>
+
+           
 
 
             <div className='hero-image'>

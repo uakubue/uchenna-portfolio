@@ -21,28 +21,28 @@ function Project() {
                 </p>
         </div>
 
-        <div className='container  grid sm:grid-cols-3 md:grid-cols-3 gap-8 px-12 sm:px-0'>
-          <div className='shadow-md shadow-gray-600 rounded-lg'>
+        <div className='container  grid sm:grid-cols-3 md:grid-cols-2 gap-8 px-12 sm:px-0'>
+          {/* <div className='shadow-md shadow-white rounded-lg'>
             <a  href='#'><img className='py-4 px-4 rounded-md duration-150 hover:scale-105' src={portfolio1} alt='first-portfolio' /></a>
           </div>
 
           <div className='shadow-md shadow-gray-600 rounded-lg'>
             <a href='#'><img className='py-4 px-4 rounded-md duration-200 hover:scale-105' src={portfolio2} alt='second-portfolio' /></a>
           </div>  
-          
-          <div className='shadow-md shadow-gray-600 rounded-lg'>
+           */}
+          <div className='shadow-md shadow-green-600 rounded-lg'>
             <a href='https://spotify-complete-clone.vercel.app/'><img className='py-4 px-4 rounded-md duration-200 hover:scale-105' src={spotifyclone} alt='spotify-clone' /></a>
           </div>
           
-          <div className='shadow-md shadow-gray-600 rounded-lg'>
+          <div className='shadow-md shadow-blue-600 rounded-lg'>
             <a href='https://lendsqr-clone-login.vercel.app/'><img className='py-4 px-4 rounded-md duration-200 hover:scale-105' src={lendsqr} alt='lend-sqr login'/></a>
           </div>
           
-          <div className='shadow-md shadow-gray-600 rounded-lg'>
+          <div className='shadow-md shadow-orange-600 rounded-lg'>
             <a href='#'><img className='py-4 px-4 rounded-md duration-200 hover:scale-105' src={responsiveportfolio} alt='responsive portfolio'/></a>
           </div>
             
-          <div className='shadow-md shadow-gray-600 rounded-lg'>
+          <div className='shadow-md shadow-yellow-600 rounded-lg'>
             <a href='#'><img className='py-4 px-4 rounded-md duration-200 hover:scale-105' src={amazonclone} alt='amazon-clone-app' /></a>
           </div>
 

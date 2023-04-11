@@ -4,8 +4,8 @@ import { MdOutlineKeyboardArrowRight } from 'react-icons/md'
 
 function Hero() {
   return (
-    <section className='bg-primary text-white py-32 px-16'>
-        <div className=' container mx-auto grid md:grid-cols-2 items-center md:justify-between'>
+    <section className='bg-primary text-white py-36 px-16'>
+        <div className=' container mx-auto grid md:grid-cols-2 h-full items-center md:justify-between'>
 
             <div className='hero__info py-3 px-3'>
                 <h1 className='text-2xl lg:text-6xl py-4 font-pacifico'>
@@ -24,7 +24,7 @@ function Hero() {
 
 
             <div className='hero-image'>
-                <img src={heroimg} alt='my__image' className='lgw-[40%] rounded-md  w-96 ml-auto'/>
+                <img src={heroimg} alt='my__image' className='lgw-[40%] rounded-lg  w-96 ml-auto'/>
             </div>
         </div>
     </section>

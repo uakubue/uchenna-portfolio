@@ -25,19 +25,19 @@ function Contact() {
                 </p>
 
                 <div className='flex flex-cols-4 py-2 px-2'>
-                  <div className='py-2 px-2 text-5xl bg-white text-blue-800'>
+                  <div className='py-2 px-2 text-3xl rounded-lg bg-white text-blue-800'>
                     <a href='https://www.linkedin.com/in/austin-akubue-490921120'><IoLogoLinkedin /></a>
                   </div>
 
-                  <div className='py-2 px-2 text-5xl text-black-700'>
+                  <div className='py-2 px-2 text-3xl text-black-700'>
                     <a href='https://github.com/uakubue'><IoLogoGithub /></a>
                   </div>
 
-                  <div className='py-2 px-2 text-5xl text-blue-400'>
+                  <div className='py-2 px-2 text-3xl text-blue-400'>
                     <a href='https://twitter.com/holmesakubue'><IoLogoTwitter /></a>
                   </div>
 
-                  <div className='py-2 px-2 text-5xl text-red'>
+                  <div className='py-2 px-2 text-3xl text-red'>
                     <a href='mailto:uakubue@gmail.com'><IoIosMailOpen /></a>
                   </div>
                 </div>

@@ -1,11 +1,12 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai"
 
 function Header() {
     const [toggle, setToggle] = useState(false);
 
     const handleToggle = () => setToggle(!toggle);
-
+ 
+    
   return (
     <div className='flex justify-between sticky top-0 px-5 py-4 bg-gray-800 text-white'>
         <header>
@@ -28,13 +29,13 @@ function Header() {
         <nav className={
             !toggle 
             ? 'mobile-nav left-[-100%]'
-            : 'mobile-nav left-0'}>
-            <ul className='flex flex-col '>
-                <li><a href='/#'>Home</a></li>
-                <li><a href='/#about'>About</a></li>
-                <li><a href='/#projects'>Projects</a></li>
-                <li><a href='/#contact'>Contact</a></li>
-                <li><a href='/#experience'>Experience</a></li>
+            : 'mobile-nav left-0'} >
+            <ul className='flex flex-col'>
+                <li className='py-4' ><a href='/#'>Home</a></li>
+                <li className='py-4 '><a href='/#about'>About</a></li>
+                <li className='py-4'><a href='/#projects'>Projects</a></li>
+                <li className='py-4'><a href='/#contact'>Contact</a></li>
+                <li className='py-4'><a href='/#experience'>Experience</a></li>
                 
             </ul>
         </nav>
@@ -43,10 +44,11 @@ function Header() {
         <button onClick={handleToggle} className="block md:hidden">
             {!toggle ? <AiOutlineMenu size={28} /> : <AiOutlineClose size={28} />}
         </button>
-
+        
+        
     </div>
     
-
+        
     
   )
 }
