@@ -27,7 +27,7 @@ function About() {
                 </button>
                    
             </div>
-                    <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
+                    <Popup className='z-auto  ' trigger={buttonPopup} setTrigger={setButtonPopup}>
                      <h3 className='font-bold text-1xl text-center'>Information:</h3>
                      <p className='text-center'>You just downloaded Uchenna's CV!</p>
                     </Popup>

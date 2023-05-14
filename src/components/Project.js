@@ -1,6 +1,6 @@
 import React from 'react';
 import portfolio1 from '../assets/portfolio1.png';
-import portfolio2 from '../assets/portfolio2.png';
+import whatsapp from '../assets/whatsapp.png'
 import amazonimg from '../assets/amazonimg.png';
 import mooviapp from '../assets/mooviapp.png';
 import spotifyclone from '../assets/spotifyclone.png';
@@ -22,7 +22,7 @@ function Project() {
                 </p>
         </div>
 
-        <div className='container  grid sm:grid-cols-3 md:grid-cols-2 gap-8 px-12 sm:px-0'>
+        <div className='container  grid sm:grid-cols-3 sml:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0 z-4'>
           {/* <div className='shadow-md shadow-white rounded-lg'>
             <a  href='#'><img className='py-4 px-4 rounded-md duration-150 hover:scale-105' src={portfolio1} alt='first-portfolio' /></a>
           </div>
@@ -31,10 +31,10 @@ function Project() {
             <a href='#'><img className='py-4 px-4 rounded-md duration-200 hover:scale-105' src={portfolio2} alt='second-portfolio' /></a>
           </div>  
            */}
-          <div className='shadow-md shadow-green-600 rounded-lg'>
-            <a href='https://moovihub.vercel.app/'><img className='py-4 px-4 rounded-md duration-500 hover:scale-105' src={mooviapp} alt='spotify-clone' /></a>
+          <div className='shadow-md shadow-red-600 rounded-lg'>
+            <a href='https://moovihub.vercel.app/'><img className='py-4 px-4 rounded-md duration-500 hover:-z-10 hover:scale-105' src={mooviapp} alt='spotify-clone' /></a>
           </div>
-          <div className='shadow-md shadow-green-600 rounded-lg'>
+          <div className='shadow-md shadow-purple-600 rounded-lg'>
             <a href='https://spotify-complete-clone.vercel.app/'><img className='py-4 px-4 rounded-md duration-500 hover:scale-105' src={spotifyclone} alt='spotify-clone' /></a>
           </div>
           
@@ -50,8 +50,8 @@ function Project() {
             <a href='https://responsive-amazon-clone.vercel.app/'><img className='py-4 px-4 rounded-md duration-500 hover:scale-105' src={amazonimg} alt='amazon-clone-app' /></a>
           </div>
 
-          <div className='shadow-md shadow-orange-600 rounded-lg'>
-            <a href='#'><img className='py-4 px-4 rounded-md duration-500 hover:scale-105' src={spotifyclone} alt='responsive portfolio'/></a>
+          <div className='shadow-md shadow-green-600 rounded-lg'>
+            <a href='https://whatsapp-mern-clone.vercel.app/'><img className='py-4 px-4 rounded-md duration-500 hover:scale-105' src={whatsapp} alt='responsive portfolio'/></a>
           </div>
 
         </div>

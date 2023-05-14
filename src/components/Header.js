@@ -8,7 +8,7 @@ function Header() {
  
     
   return (
-    <div className='flex justify-between sticky top-0 px-5 py-4 bg-gray-800 text-white z-[100]'>
+    <div className='flex justify-between sticky top-0 px-5 py-4 bg-gray-800 text-white z-auto'>
         <header>
          <a href='/#' className='logo px-3 py-2 text-orange-300 font-signature text-4xl '>Uchenna</a>
         </header>
