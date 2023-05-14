@@ -13,7 +13,7 @@ function Contact() {
                   Contact Me
                 </h1>
 
-                <p className='font-cormorant py-8 text-3xl'>
+                <p className='font-cormorant py-8 text-2xl'>
                 I'm open for any Open source projects, collaborations and both payed and unpayed gig, just a call or mail away...
                 </p>
                 
