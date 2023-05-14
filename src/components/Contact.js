@@ -26,7 +26,7 @@ function Contact() {
 
                 <div className='flex flex-cols-4 py-2 px-2'>
                   <div className='py-2 px-2 text-3xl rounded-lg bg-white text-blue-800'>
-                    <a href='https://www.linkedin.com/in/austin-akubue-490921120'><IoLogoLinkedin /></a>
+                    <a href='https://www.linkedin.com/in/uchenna-akubue-490921120/'><IoLogoLinkedin /></a>
                   </div>
 
                   <div className='py-2 px-2 text-3xl text-black-700'>
